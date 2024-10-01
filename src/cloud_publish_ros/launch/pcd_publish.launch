@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- 启动点云发布节点 -->
+    <node name="pcd_publisher" pkg="pcd_publisher" type="pcd_publisher_node" output="screen">
+        <!-- 你可以在这里添加参数或重映射 -->
+    </node>
+</launch>
